@@ -4,3 +4,33 @@ ion-toolbar{
   ion-button{
     background-color: var(--ion-color-colobar);
   }
+
+  ion-col {
+    background-color: #969696;
+    border:  #ffffff;
+    color: #000000;
+    text-align: left;
+    padding-top: 1%;
+    border-radius: 30px;
+  }
+
+  ion-grid {
+    opacity: 90%;
+    padding-top: 0%;
+    background-color: aqua;
+  }
+
+  #A {
+    background-color: #daeaf1ad;
+    border: solid 1px #ffffff;
+    color: #000000;
+    text-align: left;
+    border-radius: 30px;
+    padding-top: 2px;
+    padding-left: 20px;
+  }
+
+  ion-icon {
+    size: 20;
+  }
+  

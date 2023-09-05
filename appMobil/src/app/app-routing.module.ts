@@ -14,7 +14,11 @@ const routes: Routes = [
   {
     path: 'menu-lateral',
     loadChildren: () => import('./menu-lateral/menu-lateral.module').then( m => m.MenuLateralPageModule)
+  },  {
+    path: 'users',
+    loadChildren: () => import('./users/users.module').then( m => m.UsersPageModule)
   },
+
 ];
 
 @NgModule({

@@ -1,0 +1,24 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="colobar" >
+    <ion-title>
+      
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <img src="assets/img/logo.png" alt="" id="logo">
+  <ion-item class="imputs"> 
+    <ion-label class="label" position="floating">Usuario</ion-label>
+    <ion-input type="email"></ion-input> 
+  </ion-item>
+  <ion-item class="imputs">
+    <ion-label class="label" position="floating">Contraseña</ion-label> 
+    <ion-input type="password"></ion-input>
+  </ion-item>
+  <button [routerLink]="['/menu-lateral']" type="submit" color="colobar" id="entrar">Acceder</button>
+  <button type="submit" color="colobar" id="facebook">Acceder con Facebook</button>
+  <button type="submit" color="colobar" id="email">Acceder con Email</button>
+  <p id="registrarme">Quiero registrarme!</p>
+  <p id="olvido">Olvide mi contraseña</p>
+</ion-content>
